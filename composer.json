@@ -1,0 +1,22 @@
+{
+	"name": "jantvrdik/kos-api",
+	"type": "library",
+	"keywords": ["kosapi"],
+	"license": "MIT",
+	"require": {
+		"php": "~5.4",
+		"chuyskywalker/rolling-curl": "~3.0",
+		"kdyby/curl-ca-bundle": "~1.0",
+		"psr/log": "~1.0"
+	},
+	"autoload": {
+		"psr-4": { "JanTvrdik\\KosApi\\": "src/" }
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}
+
+
